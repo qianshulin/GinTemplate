@@ -1,0 +1,9 @@
+Dev: true
+Host: 0.0.0.0:8080
+Auth:
+  AccessSecret: "balabalabalabalabalabala"
+  AccessExpire: 100
+
+Mongo:
+  DataSource: mongodb://xxxx:xxxxx@43.139.139.207:27017/admin
+  Database: myAdmin

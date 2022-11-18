@@ -19,5 +19,3 @@ func InitRouter(app *gin.Engine) {
 	r.POST("/admin/logout", api.Logout)
 
 }
-
-
