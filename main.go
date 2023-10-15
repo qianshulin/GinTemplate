@@ -35,7 +35,8 @@ func main() {
 
 	routes.InitRouter(app)
 
-	dbs.InitMongo(c.Mongo.DataSource, c.Mongo.Database)
+	//dbs.InitMongo(c.Mongo.DataSource, c.Mongo.Database)
+	dbs.InitMySql(c.MySql)
 
 	if err := app.Run(c.Host); err != nil {
 		log.Panicln(err)

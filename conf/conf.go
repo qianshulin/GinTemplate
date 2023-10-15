@@ -17,6 +17,7 @@ type Config struct {
 		DataSource string `yaml:"DataSource"`
 		Database   string `yaml:"Database"`
 	} `yaml:"Mongo"`
+	MySql  string `yaml:"MySql"`
 	ETHUrl string `yaml:"ETHUrl"`
 
 	AssetURL string `yaml:"AssetURL"`
